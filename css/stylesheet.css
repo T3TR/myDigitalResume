@@ -3,18 +3,30 @@ body{
   font-size:110%;
   background-color: #4d4d4d;
 }
+.myPic{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+  border-style: solid;
+  border-color: rgb(198, 127, 86);
+  margin-top: 15px;
+}
 .foreground{
   background-color: #272727;
   text-align: center;
   color: rgb(198, 127, 86);
   padding-top: 3px;
   padding-bottom: 5px;
+  border-style: solid;
+  border-color: black;
 }
-.navlist{
+.link{
   display: inline;
-  margin-right: 150px;
+  margin-right: 100px;
+  color: rgb(198, 127, 86);
 }
 
-.navlist a{
+.link a{
   color: rgb(198, 127, 86);
 }
