@@ -2,6 +2,10 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:110%;
   background-color: #4d4d4d;
+  color: black;
+}
+.titles{
+  text-decoration-line: underline;
 }
 .myPic{
   height: 150px;
@@ -18,6 +22,7 @@ body{
   color: rgb(198, 127, 86);
   padding-top: 3px;
   padding-bottom: 5px;
+  border-radius: 8px;
   border-style: solid;
   border-color: black;
 }
@@ -29,4 +34,8 @@ body{
 
 .link a{
   color: rgb(198, 127, 86);
+}
+.cd{
+  height: 50px;
+  width: 50px;
 }
