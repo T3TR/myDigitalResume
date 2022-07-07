@@ -1,17 +1,20 @@
 body{
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color: #4d4d4d;
+}
+.foreground{
+  background-color: #272727;
+  text-align: center;
+  color: rgb(198, 127, 86);
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+.navlist{
+  display: inline;
+  margin-right: 150px;
 }
 
-header {
-  background-color: #343330;
-  text-align: center;
-  color: white;
-}
-
-footer {
-  background-color: #343330;
-  text-align: center;
-  color: white;
+.navlist a{
+  color: rgb(198, 127, 86);
 }
