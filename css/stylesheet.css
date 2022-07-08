@@ -3,9 +3,14 @@ body{
   font-size:110%;
   background-color: #4d4d4d;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 .titles{
   text-decoration-line: underline;
+}
+.pEnding{
+  padding-bottom: 15px;
 }
 .myPic{
   height: 150px;
