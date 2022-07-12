@@ -38,10 +38,18 @@ header{
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  padding: 15px;
 }
+
 .navlink a{
   color: rgb(198, 127, 86);
-  margin: 135px;
+  padding: 135px;
+}
+.navlink:hover{
+  background-color: #4d4d4d;
+  border-radius: 8px;
+  border-color: black;
+  border-style: solid;
 }
 footer{
   display: flex;
@@ -52,16 +60,26 @@ footer{
 footer h3{
   text-decoration-line: underline;
 }
+
 .titles{
   text-decoration-line: underline;
 }
 .link{
   color: rgb(198, 127, 86)
 }
+.link:hover{
+  color: rgb(165, 134, 87);
+}
 .pEnding{
   padding-bottom: 15px;
 }
-.cd{
+.cd:hover{
+  border: solid rgb(166, 152, 131);
+  border-radius: 30px;
+}
+.linkedin{
   height: 50px;
   width: 50px;
+  border: solid rgb(198, 127, 86);
+  border-radius: 30px;
 }
