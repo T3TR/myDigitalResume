@@ -2,15 +2,24 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:110%;
   background-color: #4d4d4d;
-  color: black;
+  color: rgb(166, 152, 131);
   display: flex;
   flex-direction: column;
 }
-.titles{
-  text-decoration-line: underline;
+.foreground{
+  background-color: #272727;
+  color: rgb(198, 127, 86);
+  padding-top: 3px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
 }
-.pEnding{
-  padding-bottom: 15px;
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .myPic{
   height: 150px;
@@ -21,24 +30,36 @@ body{
   border-color: rgb(198, 127, 86);
   margin-top: 15px;
 }
-.foreground{
-  background-color: #272727;
-  text-align: center;
+.intro{
+  max-width: 700px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.navlink a{
   color: rgb(198, 127, 86);
-  padding-top: 3px;
-  padding-bottom: 5px;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: black;
+  margin: 135px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+footer h3{
+  text-decoration-line: underline;
+}
+.titles{
+  text-decoration-line: underline;
 }
 .link{
-  display: inline;
-  margin-right: 100px;
-  color: rgb(198, 127, 86);
+  color: rgb(198, 127, 86)
 }
-
-.link a{
-  color: rgb(198, 127, 86);
+.pEnding{
+  padding-bottom: 15px;
 }
 .cd{
   height: 50px;
